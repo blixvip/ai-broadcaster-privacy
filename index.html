@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AI Broadcaster privacy policy: messages, attachments, clipboard, voice, local storage and third-party services.">
+  <title>Privacy Policy · AI Broadcaster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>AI Broadcaster <span>Privacy policy</span></header>
+    <h1>Your data and AI Broadcaster</h1>
+    <p class="meta">Effective September 4, 2026 · Extension version 1.7.0</p>
+    <p class="intro">AI Broadcaster lets you send one message or attachment set to several AI chats. This policy explains what the extension processes, where that information goes, and what you control.</p>
+    <p>Publisher: Kaihan, publishing as <strong>kaihanwasely</strong> on the Chrome Web Store.<br>Contact: <a href="mailto:kaihanwasely@gmail.com">kaihanwasely@gmail.com</a>.</p>
+
+    <section aria-labelledby="messages">
+      <h2 id="messages">Messages, files and conversations</h2>
+      <p>The extension processes your draft text, image or PDF contents, filenames and file types to prepare a broadcast. When you choose Broadcast or the broadcast shortcut, that content is sent directly through the websites of the AI services connected to your workspace. AI Broadcaster does not operate a relay server.</p>
+      <p>On supported provider pages, the extension reads composer and conversation elements to insert your message, check whether delivery succeeded, and capture the latest answer when you request it. These messages, files and page contents may contain personal or sensitive information.</p>
+      <p>It uses your existing provider sign-in. It does not request Chrome's cookies API or maintain its own copy of your provider passwords. Opening an embedded panel or connected tab makes normal browser requests to the provider and its resources, even before you broadcast.</p>
+    </section>
+
+    <section aria-labelledby="capture">
+      <h2 id="capture">Clipboard and current-page capture</h2>
+      <p><kbd>Alt + Shift + V</kbd> reads clipboard text or an image into your draft. <kbd>Alt + Shift + G</kbd> also broadcasts it immediately.</p>
+      <p>If the clipboard is empty, a shortcut may capture a hovered image, selected text or nearby text from the active page. The page helper runs only when you invoke the shortcut. It does not continuously monitor the clipboard or track pointer movements across websites. Restricted pages may require copying first.</p>
+      <p>To attach a hovered image, the helper may fetch its visible image URL without credentials. Otherwise, selected files enter the draft through the file picker, paste or drag-and-drop.</p>
+    </section>
+
+    <section aria-labelledby="storage">
+      <h2 id="storage">Local settings and reliability statistics</h2>
+      <p>Workspace names, layouts, provider choices and launch defaults are saved in Chrome extension storage on your device. Tab and frame identifiers are used to route broadcasts to the correct workspace and are stored in session storage.</p>
+      <p>Local reliability statistics include provider identifiers, attempt counts, outcomes, timings and automation diagnostic labels. They do not include draft text or file contents and are not uploaded to the developer.</p>
+      <p>Drafts, attachments and answer previews remain in page memory rather than persistent extension records. Closing that page releases its draft state. Saved settings and statistics remain until extension data is removed. Browser session bindings are temporary.</p>
+    </section>
+
+    <section aria-labelledby="voice">
+      <h2 id="voice">Voice input</h2>
+      <p>Voice input starts when you activate it and uses Chrome's speech-recognition implementation. Audio may be sent to and processed by the browser's speech service; it is not guaranteed to remain on your device. Recognized text enters your draft. AI Broadcaster has no developer-operated audio server.</p>
+    </section>
+
+    <section aria-labelledby="native">
+      <h2 id="native">Native terminal handoff</h2>
+      <p>If you use the Warp action, selected AI response text is passed to a separately installed native helper. The action you choose may paste or submit text in the selected terminal session. The extension does not install that helper. Review generated commands before submitting them.</p>
+    </section>
+
+    <section aria-labelledby="recipients">
+      <h2 id="recipients">Who receives your information</h2>
+      <p>Recipients depend on the chats you connect: Google Gemini or AI Studio, Microsoft Copilot, DeepSeek, Mistral, xAI/X, Perplexity, You.com, Duck.ai, Hugging Face, Poe, Venice, Arena, Qwen, Meta AI, Kimi or Blackbox AI.</p>
+      <p>Those providers, your browser's speech service and any native helper you install have their own data practices, account controls and retention rules. Review their policies before sharing confidential information. AI Broadcaster is independent and is not affiliated with or endorsed by those providers.</p>
+      <p>AI Broadcaster does not send analytics to a developer server, sell user data, or use it for advertising. Information is processed for the functions described here. AI Broadcaster's use of information received from Google APIs adheres to the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+    </section>
+
+    <section aria-labelledby="control">
+      <h2 id="control">Your choices and deletion</h2>
+      <p>You choose the providers, draft content, files and actions. You can stop voice input, stop using capture shortcuts, change Chrome's extension site-access settings, or uninstall the extension. Restricting permissions can disable associated features.</p>
+      <p>Removing the extension clears its local records. It does not delete messages already sent to AI providers or text passed to a native application. Use those services' own deletion controls for that information.</p>
+    </section>
+
+    <section aria-labelledby="website">
+      <h2 id="website">This policy page and support</h2>
+      <p>This page is hosted on GitHub Pages. It contains no analytics scripts, advertising or tracking cookies added by us. GitHub logs visitors' IP addresses for security purposes; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+      <p>If you email support, your email address and the information you include are received through the publisher's email service. Send only what is needed to describe your question. Do not send passwords, identity documents, confidential conversations or sensitive attachments.</p>
+    </section>
+
+    <section aria-labelledby="changes">
+      <h2 id="changes">Changes and contact</h2>
+      <p>This policy will be updated if the extension's data practices change. The effective date above identifies the current version. Material changes will be disclosed before they take effect.</p>
+      <p>For privacy questions or requests, contact Kaihan at <a href="mailto:kaihanwasely@gmail.com">kaihanwasely@gmail.com</a>.</p>
+    </section>
+    <footer>AI Broadcaster · Privacy policy · September 4, 2026</footer>
+  </main>
+</body>
+</html>
